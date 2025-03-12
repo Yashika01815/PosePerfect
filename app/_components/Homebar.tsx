@@ -12,6 +12,7 @@ function Homebar() {
 
       {/* Content Section */}
       <div className="relative z-10 mb-28 w-full text-center ">
+        <Button variant={'outline'} className='mb-5 text-blue-400 hover:bg-blue-50 hover:text-blue-400 outline-blue-100' size={'sm'}>AI-Powered Form Correction</Button>
         <p className="font-bold text-4xl lg:text-6xl lg:px-12">
           Perfect your <span className="text-blue-500">Workout Form</span> with Real-Time AI
         </p>
@@ -21,7 +22,7 @@ function Homebar() {
 
         {/* Buttons */}
         <div className="flex justify-center mt-7 gap-4 text-xl">
-          <Button variant="outline" size="lg" className="text-blue-500">
+          <Button variant="outline" size="lg" className="text-blue-500 hover:text-blue-600">
             Start Correction
           </Button>
           <Button size="lg" className="bg-blue-500 hover:bg-blue-600">

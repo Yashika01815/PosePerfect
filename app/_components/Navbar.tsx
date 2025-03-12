@@ -8,12 +8,14 @@ function Navbar() {
     <div className='p-5 flex items-center justify-between'>
     <div className='items-center flex gap-2 cursor-pointer'>
         <Image src={'/newlogo.svg'} alt='logo' height={30} width={30}/>
-        <h2 className='text-2xl font-bold'>PosePerfect</h2>
+        <h2 className='text-2xl font-bold text-blue-500'>PosePerfect</h2>
     </div>
     <div className='flex flex-row-reverse gap-3'>
         {/* <UserButton/> */}
         <Link href="/dashboard">
-        <Button>Dashboard</Button>
+        <Button  className="bg-blue-500 hover:bg-blue-600">
+                    Signup
+                  </Button>
         </Link>
     </div>
     </div>
