@@ -14,7 +14,7 @@ function Navbar() {
         {/* <UserButton/> */}
         <Link href="/dashboard">
         <Button  className="bg-blue-500 hover:bg-blue-600">
-                    Signup
+                    Dashboard
                   </Button>
         </Link>
     </div>
