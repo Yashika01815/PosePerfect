@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 
-function Features() {
+function Features(): ReactElement {
   return (
-    <div>Featuressss</div>
+    <div>Features</div>
   )
 }
 
