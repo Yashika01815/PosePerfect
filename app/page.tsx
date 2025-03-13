@@ -1,4 +1,4 @@
-import Image from "next/image";
+import React from "react";
 import Navbar from "./_components/Navbar";
 import Homebar from "./_components/Homebar";
 import Features from "./_components/Features";
