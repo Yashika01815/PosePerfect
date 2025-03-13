@@ -1,13 +1,17 @@
 import { Button } from '@/components/ui/button';
 import Spline from '@splinetool/react-spline/next';
-import React from 'react';
+import React, { useEffect } from 'react';
+import SplineProvider from './SplineProvider';
 
 function Homebar() {
+  
   return (
     <div className="relative w-full h-screen flex items-center justify-center p-10 md:px-20 lg:px-36 xl:px-48">
       {/* Background Spline Animation */}
       <div className="absolute inset-0 -z-10 w-full h-full">
-        <Spline scene="https://prod.spline.design/kIEq55kPdfiYfLCV/scene.splinecode" />
+        <SplineProvider>
+        <Spline scene="https://prod.spline.design/kIEq55kPdfiYfLCV/scene.splinecode"/>
+        </SplineProvider>
       </div>
 
       {/* Content Section */}

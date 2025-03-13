@@ -124,12 +124,13 @@
     @apply bg-background text-foreground;
   }
 }
-
+/* 
 .spline-viewer div[style*="position: absolute"] {
   display: none !important;
+  
 }
 div[data-test="watermark"] {
   display: none !important;
   visibility: hidden !important;
   opacity: 0 !important;
-}
+} */
